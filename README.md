@@ -50,6 +50,14 @@ python -m pytest tests/
 * 일부 코드는 개선될 여지가 있습니다.
 * 나중에 명령어를 더 추가할 수 있습니다.  
 
+```bash
+python book_app.py add
+
+Title: Harry Potter and the Philosopher's Stone  
+Author: J.K. Rowling  
+Year: 1997  
+```
+
 ## Running Tests
 Ask Copilot CLI a plain-English question about your toolchain. It can generate the right shell command for you.
 ```
