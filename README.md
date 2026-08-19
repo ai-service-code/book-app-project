@@ -48,4 +48,17 @@ python -m pytest tests/
 
 * 해당 없음 실제 사용 가능한 수준 (당연히)
 * 일부 코드는 개선될 여지가 있습니다.
-* 나중에 명령어를 더 추가할 수 있습니다.
+* 나중에 명령어를 더 추가할 수 있습니다.  
+
+## Running Tests
+Ask Copilot CLI a plain-English question about your toolchain. It can generate the right shell command for you.
+```
+copilot
+
+> How do I run the tests? Show me the pytest command.
+
+# Copilot CLI responds:
+# python -m pytest tests/
+# Or for verbose output: python -m pytest tests/ -v
+# To see print statements: python -m pytest tests/ -s
+```
